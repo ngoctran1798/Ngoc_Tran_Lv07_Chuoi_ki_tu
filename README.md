@@ -1,4 +1,5 @@
-##Báo cáo học chuổi  
+**Trần Thị Ngọc**  
+##Báo cáo học chuỗi  
  
 [IKhái Niệm Chuỗi Con Trỏ](#Chuỗi_con_trỏ)  
 [II.Thao tác của chuỗi](#Thao_tác_của_chuỗi)  
