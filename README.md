@@ -10,6 +10,7 @@
 - chuỗi là 1 dãy kí tự
 - kiểu char
 - \0 = null = kết thúc chuỗi.Thực tế, bạn không đặt ký tự null tại vị trí cuối cùng của biến hằng số. Bộ biên dịch C tự động thêm.  
+
 **2.Khai báo**  
 ``` `Char tên[]` hoặc `Char *tên` ```  
   
@@ -25,8 +26,7 @@
 - **Hàm strncpy:** `strncpy(char dest[], char source[], int n)`    
 *Sao chép n ký tự trong chuỗi source vào chuỗi dest.*  
 - **Hàm strcat:** `strcat(char ch1[], char ch2[])`  
-*Nối chuỗi ch2 vào cuối chuỗi ch1. Sau lời gọi hàm này độ dài chuỗi ch1 bằng tổng độ dài của cả hai chuỗi ch1 và ch2 trước lời gọi hàm.*  
-- **Hàm strncat:** `strncat(char ch1[], char ch2[],int n)`  
+*Nối chuỗi ch2 vào cuối chuỗi ch1. Sau lời gọi hàm này độ dài chuỗi ch1 bằng tổng độ dài của cả hai chuỗi ch1 và ch2 trước lời gọi hàm.*  - **Hàm strncat:** `strncat(char ch1[], char ch2[],int n)`  
 *Nối n ký tự đầu tiên của ch2 vào ch1*  
 - **Hàm strstr:** `char *strstr(char s1[], char s2[])`  
 *Tìm kiếm chuỗi s2 trong chuỗi s1, Trả về địa chỉ của lần xuất hiện đầu tiên của s2 trong s1 hoặc NULL khi không tìm thấy.*  
