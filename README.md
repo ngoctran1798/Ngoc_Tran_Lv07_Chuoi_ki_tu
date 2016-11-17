@@ -9,7 +9,7 @@
 **1.Khái niệm**  
 - chuỗi là 1 dãy kí tự
 - kiểu char
-- \0 = null = kết thúc chuỗi.Thực tế, bạn không đặt ký tự null tại vị trí cuối cùng của biến hằng số. Bộ biên dịch C tự động thêm.
+- \0 = null = kết thúc chuỗi.Thực tế, bạn không đặt ký tự null tại vị trí cuối cùng của biến hằng số. Bộ biên dịch C tự động thêm.  
 **2.Khai báo**  
 ``` `Char tên[]` hoặc `Char *tên` ```  
   
@@ -33,15 +33,17 @@
 - **Hàm strcmp:** `int strcmp(char ch1[], char ch2[])`  
 *So sánh hai chuỗi ch1 và ch2. Nguyên tắc so sánh theo kiểu từ điển.*  
 Giá trị trả về:  
-+ = 0 nếu chuỗi ch1 bằng chuỗi ch2.  
-+ > 0 nếu chuỗi ch1 lớn hơn chuỗi ch2.  
-+ < 0 nếu chuỗi ch1 nhỏ hơn chuỗi ch2.  
+  + = 0 nếu chuỗi ch1 bằng chuỗi ch2.  
+  + > 0 nếu chuỗi ch1 lớn hơn chuỗi ch2.  
+  + < 0 nếu chuỗi ch1 nhỏ hơn chuỗi ch2.  
+- **Hàm stricmp:** *tương tự hàm strcmp nhưng không phân biệt chữ hoa và thường*  
+- **Hàm strincpm:** *tương tự hàm strncpm nhưng không phân biệt hoa, thường*  
 
 <a name Mảng_và_chuỗi_ký_tự><a\>  
 ###III.Mảng Và Chuỗi Ký Tự   
-**Khái niệm**    
+**1.Khái niệm**    
 Một dạng sử dụng con trỏ đặc biệt là việc sử dụng một mảng các biến con trỏ.  
-**Khai báo:**  
+**2.Khai báo:**  
 `type *pointer_array[size];`  
 VD: char *p[100]; 
 
